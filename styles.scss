@@ -1,0 +1,38 @@
+.swf-file-uploader-drop-target {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 10em;
+    height: 8.4375rem;
+    border: .0625rem dashed RGB(var(--now-color--primary-1,30,133,109));
+    border-radius: .375rem;
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    color: RGB(var(--now-color--primary-1,30,133,109));
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.swf-text-link {
+    color: RGB(var(--now-color--primary-1,30,133,109));
+    font-size: .75rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.swf-file-uploader-file-types {
+    margin-top: .75rem;
+    margin-bottom: 0;
+    font-size: .75rem;
+    color: RGB(var(--now-color--neutral-9,99,114,116));
+}

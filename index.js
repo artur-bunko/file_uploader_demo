@@ -1,0 +1,1 @@
+import "./swf-file-uploader"
